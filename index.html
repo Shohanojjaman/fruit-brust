@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fruit Brust</title>
 
+    <!-- Lato Google font like here -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+
     <!-- Link TailwindrCSS and DaisyUI -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
@@ -14,6 +19,9 @@
         tailwind.config = {
             theme: {
                 extend: {
+                    fontFamily: {
+                        lato: "'Lato', 'sans-serif'"
+                    },
                     colors: {
                         theme: '#F85559',
                     }
@@ -24,7 +32,7 @@
 
 </head>
 
-<body>
+<body class="font-lato">
     <!-- Header Section Start -->
     <header class="py-8 lg:py-14">
         <div class="container mx-auto px-6 sm:px-0">
@@ -32,10 +40,22 @@
                 <div class="navbar">
                     <div class="navbar-start">
                         <ul class="menu menu-horizontal px-1 hidden lg:flex">
-                            <li><a href="#" class="capitalize text-base text-white font-semibold">home</a></li>
-                            <li><a href="#" class="capitalize text-base text-white font-semibold">about us</a></li>
-                            <li><a href="#" class="capitalize text-base text-white font-semibold">shop</a></li>
-                            <li><a href="#" class="capitalize text-base text-white font-semibold">all fruits</a></li>
+                            <li>
+                                <a href="#"
+                                    class="capitalize text-base text-white font-semibold hover:text-white">home</a>
+                            </li>
+                            <li>
+                                <a href="#" class="capitalize text-base text-white font-semibold hover:text-white">about
+                                    us</a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="capitalize text-base text-white font-semibold hover:text-white">shop</a>
+                            </li>
+                            <li>
+                                <a href="#" class="capitalize text-base text-white font-semibold hover:text-white">all
+                                    fruits</a>
+                            </li>
                         </ul>
                         <a href="#" class="flex gap-2 items-center lg:hidden">
                             <img src="./assets/images/logo.png" alt="" class="">
