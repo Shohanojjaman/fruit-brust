@@ -24,6 +24,7 @@
                     },
                     colors: {
                         theme: '#F85559',
+                        secondary: '#121212'
                     }
                 }
             }
@@ -67,7 +68,7 @@
                         </ul>
                         <a href="#" class="flex gap-2 items-center lg:hidden">
                             <img src="./assets/images/logo.png" alt="" class="">
-                            <h1 class="text-[#121212] text-xl font-bold">Fruit Burst</h1>
+                            <h1 class="text-secondary text-xl font-bold">Fruit Burst</h1>
                         </a>
                     </div>
                     <div class="navbar-center hidden lg:flex">
@@ -81,7 +82,7 @@
                             <label tabindex="0" class="btn btn-ghost rounded-btn">
                                 <svg class="md:text-white" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                     viewBox="0 0 24 24" fill="none">
-                                    <path d="M3.75 6.75H20.25M3.75 12H20.25M3.75 17.25H20.25" stroke="#121212"
+                                    <path d="M3.75 6.75H20.25M3.75 12H20.25M3.75 17.25H20.25" stroke="secondary"
                                         stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                                 </svg>
                             </label>
@@ -95,12 +96,12 @@
                         </div>
                         <div class="form-control hidden lg:block relative">
                             <input type="text" placeholder="Search here"
-                                class="input input-bordered w-24 lg:w-auto rounded-full focus:outline-none text-[#12121266]" />
+                                class="input input-bordered w-24 lg:w-auto rounded-full focus:outline-none text-secondary/60" />
                             <svg class="absolute right-4 top-3" xmlns="http://www.w3.org/2000/svg" width="24"
                                 height="24" viewBox="0 0 24 24" fill="none">
                                 <path
                                     d="M20.9998 21L15.8028 15.803M15.8028 15.803C17.2094 14.3965 17.9996 12.4887 17.9996 10.4995C17.9996 8.51035 17.2094 6.60262 15.8028 5.19605C14.3962 3.78947 12.4885 2.99927 10.4993 2.99927C8.51011 2.99927 6.60238 3.78947 5.19581 5.19605C3.78923 6.60262 2.99902 8.51035 2.99902 10.4995C2.99902 12.4887 3.78923 14.3965 5.19581 15.803C6.60238 17.2096 8.51011 17.9998 10.4993 17.9998C12.4885 17.9998 14.3962 17.2096 15.8028 15.803Z"
-                                    stroke="#121212" stroke-width="1.5" stroke-linecap="round"
+                                    stroke="secondary" stroke-width="1.5" stroke-linecap="round"
                                     stroke-linejoin="round" />
                             </svg>
                         </div>
@@ -200,26 +201,36 @@
         <section id="fruits">
             <div class="container mx-auto mb-16">
                 <div
-                    class="hidden lg:flex justify-between gap-24 mx-28 bg-white px-16 py-12 rounded-lg -mt-32 z-40 relative">
-                    <div class="space-y-4 text-center">
-                        <img src="./assets/images/fruit1.png" alt="Grape">
-                        <p>Grape</p>
+                    class="hidden lg:flex justify-between gap-24 mx-28 bg-white px-16 py-12 rounded-lg -mt-32 z-40 relative shadow-lg">
+                    <div class="text-center">
+                        <a href="#" class="space-y-4">
+                            <img src="./assets/images/fruit1.png" alt="Grape">
+                            <p>Grape</p>
+                        </a>
                     </div>
                     <div class="space-y-4 text-center">
-                        <img src="./assets/images/fruit2.png" alt="Orange">
-                        <p>Orange</p>
+                        <a href="#" class="space-y-4">
+                            <img src="./assets/images/fruit2.png" alt="Orange">
+                            <p>Orange</p>
+                        </a>
                     </div>
                     <div class="space-y-4 text-center">
-                        <img src="./assets/images/fruit3.png" alt="Mango">
-                        <p>Mango</p>
+                        <a href="#" class="space-y-4">
+                            <img src="./assets/images/fruit3.png" alt="Mango">
+                            <p>Mango</p>
+                        </a>
                     </div>
                     <div class="space-y-4 text-center">
-                        <img src="./assets/images/fruit4.png" alt="Strawberry">
-                        <p>Strawberry</p>
+                        <a href="#" class="space-y-4">
+                            <img src="./assets/images/fruit4.png" alt="Strawberry">
+                            <p>Strawberry</p>
+                        </a>
                     </div>
                     <div class="space-y-4 text-center">
-                        <img src="./assets/images/fruit5.png" alt="Pomegranate">
-                        <p>Pomegranate</p>
+                        <a href="#" class="space-y-4">
+                            <img src="./assets/images/fruit5.png" alt="Pomegranate">
+                            <p>Pomegranate</p>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -231,18 +242,14 @@
                 <div class="flex max-md:flex-col md:justify-between items-center gap-6 w-full">
                     <div class="max-w-xl max-lg:mx-auto max-sm:px-6 space-y-6 max-md:text-center">
                         <h2 class="text-xl md:text-5xl font-black">Deal of the day</h2>
-                        <p class="text-base leading-relaxed text-[#121212]/60">Contrary to popular belief, is not simply
-                            random
-                            text. It has roots
-                            in a
-                            piece of
-                            classical
-                            Latin
-                            literature from 45 BC, making it over 2000 years old.</p>
+                        <p class="text-base leading-relaxed text-secondary/60">Contrary to popular belief, is not
+                            simply
+                            random text. It has roots in a piece of classical Latin literature from 45 BC, making it
+                            over 2000 years old.</p>
                     </div>
                     <div class="grid grid-flow-col gap-5 text-center justify-center auto-cols-max">
-                        <div class="flex flex-col gap-1 text-sm capitalize text-[#121212]/60 font-bold">
-                            <span class="countdown font-black text-3xl text-[#121212]">
+                        <div class="flex flex-col gap-1 text-sm capitalize text-secondary/60 font-bold">
+                            <span class="countdown font-black text-3xl lg:text-5xl text-secondary">
                                 <span style="--value:29;"></span>
                             </span>
                             days
@@ -252,12 +259,12 @@
                                 fill="none">
                                 <path
                                     d="M7.60902 4.30006C7.48971 4.30006 7.37529 4.25267 7.29093 4.16831C7.20657 4.08395 7.15918 3.96953 7.15918 3.85023C7.15918 3.73092 7.20657 3.6165 7.29093 3.53214C7.37529 3.44778 7.48971 3.40039 7.60902 3.40039C7.72832 3.40039 7.84274 3.44778 7.9271 3.53214C8.01146 3.6165 8.05885 3.73092 8.05885 3.85023C8.05885 3.96953 8.01146 4.08395 7.9271 4.16831C7.84274 4.25267 7.72832 4.30006 7.60902 4.30006ZM7.60902 7.89875C7.48971 7.89875 7.37529 7.85135 7.29093 7.76699C7.20657 7.68263 7.15918 7.56821 7.15918 7.44891C7.15918 7.32961 7.20657 7.21519 7.29093 7.13083C7.37529 7.04647 7.48971 6.99908 7.60902 6.99908C7.72832 6.99908 7.84274 7.04647 7.9271 7.13083C8.01146 7.21519 8.05885 7.32961 8.05885 7.44891C8.05885 7.56821 8.01146 7.68263 7.9271 7.76699C7.84274 7.85135 7.72832 7.89875 7.60902 7.89875ZM7.60902 11.4974C7.48971 11.4974 7.37529 11.45 7.29093 11.3657C7.20657 11.2813 7.15918 11.1669 7.15918 11.0476C7.15918 10.9283 7.20657 10.8139 7.29093 10.7295C7.37529 10.6452 7.48971 10.5978 7.60902 10.5978C7.72832 10.5978 7.84274 10.6452 7.9271 10.7295C8.01146 10.8139 8.05885 10.9283 8.05885 11.0476C8.05885 11.1669 8.01146 11.2813 7.9271 11.3657C7.84274 11.45 7.72832 11.4974 7.60902 11.4974Z"
-                                    stroke="#121212" stroke-width="0.899671" stroke-linecap="round"
+                                    stroke="secondary" stroke-width="0.899671" stroke-linecap="round"
                                     stroke-linejoin="round"></path>
                             </svg>
                         </div>
-                        <div class="flex flex-col gap-1 text-sm capitalize text-[#121212]/60 font-bold">
-                            <span class="countdown font-black text-3xl text-[#121212]">
+                        <div class="flex flex-col gap-1 text-sm capitalize text-secondary/60 font-bold">
+                            <span class="countdown font-black text-3xl lg:text-5xl text-secondary">
                                 <span style="--value:15;"></span>
                             </span>
                             hours
@@ -268,12 +275,12 @@
                                 fill="none">
                                 <path
                                     d="M7.60902 4.30006C7.48971 4.30006 7.37529 4.25267 7.29093 4.16831C7.20657 4.08395 7.15918 3.96953 7.15918 3.85023C7.15918 3.73092 7.20657 3.6165 7.29093 3.53214C7.37529 3.44778 7.48971 3.40039 7.60902 3.40039C7.72832 3.40039 7.84274 3.44778 7.9271 3.53214C8.01146 3.6165 8.05885 3.73092 8.05885 3.85023C8.05885 3.96953 8.01146 4.08395 7.9271 4.16831C7.84274 4.25267 7.72832 4.30006 7.60902 4.30006ZM7.60902 7.89875C7.48971 7.89875 7.37529 7.85135 7.29093 7.76699C7.20657 7.68263 7.15918 7.56821 7.15918 7.44891C7.15918 7.32961 7.20657 7.21519 7.29093 7.13083C7.37529 7.04647 7.48971 6.99908 7.60902 6.99908C7.72832 6.99908 7.84274 7.04647 7.9271 7.13083C8.01146 7.21519 8.05885 7.32961 8.05885 7.44891C8.05885 7.56821 8.01146 7.68263 7.9271 7.76699C7.84274 7.85135 7.72832 7.89875 7.60902 7.89875ZM7.60902 11.4974C7.48971 11.4974 7.37529 11.45 7.29093 11.3657C7.20657 11.2813 7.15918 11.1669 7.15918 11.0476C7.15918 10.9283 7.20657 10.8139 7.29093 10.7295C7.37529 10.6452 7.48971 10.5978 7.60902 10.5978C7.72832 10.5978 7.84274 10.6452 7.9271 10.7295C8.01146 10.8139 8.05885 10.9283 8.05885 11.0476C8.05885 11.1669 8.01146 11.2813 7.9271 11.3657C7.84274 11.45 7.72832 11.4974 7.60902 11.4974Z"
-                                    stroke="#121212" stroke-width="0.899671" stroke-linecap="round"
+                                    stroke="secondary" stroke-width="0.899671" stroke-linecap="round"
                                     stroke-linejoin="round"></path>
                             </svg>
                         </div>
-                        <div class="flex flex-col gap-1 text-sm capitalize text-[#121212]/60 font-bold">
-                            <span class="countdown font-black text-3xl text-[#121212]">
+                        <div class="flex flex-col gap-1 text-sm capitalize text-secondary/60 font-bold">
+                            <span class="countdown font-black text-3xl lg:text-5xl text-secondary">
                                 <span style="--value:25;"></span>
                             </span>
                             min
@@ -283,23 +290,23 @@
                                 fill="none">
                                 <path
                                     d="M7.60902 4.30006C7.48971 4.30006 7.37529 4.25267 7.29093 4.16831C7.20657 4.08395 7.15918 3.96953 7.15918 3.85023C7.15918 3.73092 7.20657 3.6165 7.29093 3.53214C7.37529 3.44778 7.48971 3.40039 7.60902 3.40039C7.72832 3.40039 7.84274 3.44778 7.9271 3.53214C8.01146 3.6165 8.05885 3.73092 8.05885 3.85023C8.05885 3.96953 8.01146 4.08395 7.9271 4.16831C7.84274 4.25267 7.72832 4.30006 7.60902 4.30006ZM7.60902 7.89875C7.48971 7.89875 7.37529 7.85135 7.29093 7.76699C7.20657 7.68263 7.15918 7.56821 7.15918 7.44891C7.15918 7.32961 7.20657 7.21519 7.29093 7.13083C7.37529 7.04647 7.48971 6.99908 7.60902 6.99908C7.72832 6.99908 7.84274 7.04647 7.9271 7.13083C8.01146 7.21519 8.05885 7.32961 8.05885 7.44891C8.05885 7.56821 8.01146 7.68263 7.9271 7.76699C7.84274 7.85135 7.72832 7.89875 7.60902 7.89875ZM7.60902 11.4974C7.48971 11.4974 7.37529 11.45 7.29093 11.3657C7.20657 11.2813 7.15918 11.1669 7.15918 11.0476C7.15918 10.9283 7.20657 10.8139 7.29093 10.7295C7.37529 10.6452 7.48971 10.5978 7.60902 10.5978C7.72832 10.5978 7.84274 10.6452 7.9271 10.7295C8.01146 10.8139 8.05885 10.9283 8.05885 11.0476C8.05885 11.1669 8.01146 11.2813 7.9271 11.3657C7.84274 11.45 7.72832 11.4974 7.60902 11.4974Z"
-                                    stroke="#121212" stroke-width="0.899671" stroke-linecap="round"
+                                    stroke="secondary" stroke-width="0.899671" stroke-linecap="round"
                                     stroke-linejoin="round"></path>
                             </svg>
                         </div>
-                        <div class="flex flex-col gap-1 text-sm capitalize text-[#121212]/60 font-bold">
-                            <span class="countdown font-black text-3xl text-[#121212]">
+                        <div class="flex flex-col gap-1 text-sm capitalize text-secondary/60 font-bold">
+                            <span class="countdown font-black text-3xl lg:text-5xl text-secondary">
                                 <span style="--value:08;"></span>
                             </span>
                             sec
                         </div>
                     </div>
                 </div>
-                <div class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 my-6 gap-4">
-                    <div class="text-center border border-[#121212]/10 rounded-lg p-12 space-y-12">
+                <div class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 my-6 lg:my-12 gap-4">
+                    <div class="text-center border border-secondary/10 rounded-lg p-12 space-y-12">
                         <img src="./assets/images/fruit6.png" alt="Apples" class="mx-auto">
                         <div class="space-y-7">
-                            <p class="text-[#121212] font-black text-2xl">12.90$ - 18.85$</p>
+                            <p class="text-secondary font-black text-2xl">12.90$ - 18.85$</p>
                             <div class="divider"></div>
                             <p>Apples</p>
                             <div class="rating rating-lg rating-half">
@@ -326,7 +333,7 @@
                                     <div class="text-center rounded-lg p-12 space-y-12">
                                         <img src="./assets/images/fruit6.png" alt="Apples" class="mx-auto">
                                         <div class="space-y-7">
-                                            <p class="text-[#121212] font-black text-2xl">Apples</p>
+                                            <p class="text-secondary font-black text-2xl">Apples</p>
                                             <p>Professional employees are there for you to pick the most amazing and
                                                 fresh fruits.</p>
                                             <div class="rating rating-lg rating-half">
@@ -355,7 +362,8 @@
                                         </div>
                                         <div class="modal-action flex justify-center gap-4">
                                             <!-- if there is a button in form, it will close the modal -->
-                                            <button class="btn">Close</button>
+                                            <button
+                                                class="btn border-2 bg-transparent border-theme text-theme hover:text-white hover:bg-theme hover:border-theme">Close</button>
                                             <button
                                                 class="btn text-white bg-theme border-2 border-transparent hover:bg-transparent hover:border-theme hover:text-theme">Buy
                                                 Now</button>
@@ -366,10 +374,10 @@
                             </form>
                         </dialog>
                     </div>
-                    <div class="text-center border border-[#121212]/10 rounded-lg p-12 space-y-12">
+                    <div class="text-center border border-secondary/10 rounded-lg p-12 space-y-12">
                         <img src="./assets/images/fruit7.png" alt="Orange" class="mx-auto">
                         <div class="space-y-7">
-                            <p class="text-[#121212] font-black text-2xl">12.90$ - 18.85$</p>
+                            <p class="text-secondary font-black text-2xl">12.90$ - 18.85$</p>
                             <div class="divider"></div>
                             <p>Orange</p>
                             <div class="rating rating-lg rating-half">
@@ -396,7 +404,7 @@
                                     <div class="text-center rounded-lg p-12 space-y-12">
                                         <img src="./assets/images/fruit7.png" alt="Apples" class="mx-auto">
                                         <div class="space-y-7">
-                                            <p class="text-[#121212] font-black text-2xl">Orange</p>
+                                            <p class="text-secondary font-black text-2xl">Orange</p>
                                             <p>Professional employees are there for you to pick the most amazing and
                                                 fresh fruits.</p>
                                             <div class="rating rating-lg rating-half">
@@ -425,7 +433,8 @@
                                         </div>
                                         <div class="modal-action flex justify-center gap-4">
                                             <!-- if there is a button in form, it will close the modal -->
-                                            <button class="btn">Close</button>
+                                            <button
+                                                class="btn border-2 bg-transparent border-theme text-theme hover:text-white hover:bg-theme hover:border-theme">Close</button>
                                             <button
                                                 class="btn text-white bg-theme border-2 border-transparent hover:bg-transparent hover:border-theme hover:text-theme">Buy
                                                 Now</button>
@@ -436,10 +445,10 @@
                             </form>
                         </dialog>
                     </div>
-                    <div class="text-center border border-[#121212]/10 rounded-lg p-12 space-y-12">
+                    <div class="text-center border border-secondary/10 rounded-lg p-12 space-y-12">
                         <img src="./assets/images/fruit8.png" alt="Red Dragon" class="mx-auto">
                         <div class="space-y-7">
-                            <p class="text-[#121212] font-black text-2xl">12.90$ - 18.85$</p>
+                            <p class="text-secondary font-black text-2xl">12.90$ - 18.85$</p>
                             <div class="divider"></div>
                             <p>Red Dragon</p>
                             <div class="rating rating-lg rating-half">
@@ -466,7 +475,7 @@
                                     <div class="text-center rounded-lg p-12 space-y-12">
                                         <img src="./assets/images/fruit8.png" alt="Red Dragon" class="mx-auto">
                                         <div class="space-y-7">
-                                            <p class="text-[#121212] font-black text-2xl">Red Dragon</p>
+                                            <p class="text-secondary font-black text-2xl">Red Dragon</p>
                                             <p>Professional employees are there for you to pick the most amazing and
                                             <div class="rating rating-lg rating-half">
                                                 <input type="radio" name="rating-10" class="rating-hidden" />
@@ -494,7 +503,8 @@
                                         </div>
                                         <div class="modal-action flex justify-center gap-4">
                                             <!-- if there is a button in form, it will close the modal -->
-                                            <button class="btn">Close</button>
+                                            <button
+                                                class="btn border-2 bg-transparent border-theme text-theme hover:text-white hover:bg-theme hover:border-theme">Close</button>
                                             <button
                                                 class="btn text-white bg-theme border-2 border-transparent hover:bg-transparent hover:border-theme hover:text-theme">Buy
                                                 Now</button>
@@ -505,10 +515,10 @@
                             </form>
                         </dialog>
                     </div>
-                    <div class="text-center border border-[#121212]/10 rounded-lg p-12 space-y-12">
+                    <div class="text-center border border-secondary/10 rounded-lg p-12 space-y-12">
                         <img src="./assets/images/fruit9.png" alt="Banana" class="mx-auto">
                         <div class="space-y-7">
-                            <p class="text-[#121212] font-black text-2xl">12.90$ - 18.85$</p>
+                            <p class="text-secondary font-black text-2xl">12.90$ - 18.85$</p>
                             <div class="divider"></div>
                             <p>Banana</p>
                             <div class="rating rating-lg rating-half">
@@ -535,7 +545,7 @@
                                     <div class="text-center rounded-lg p-12 space-y-12">
                                         <img src="./assets/images/fruit9.png" alt="Banana" class="mx-auto">
                                         <div class="space-y-7">
-                                            <p class="text-[#121212] font-black text-2xl">Banana</p>
+                                            <p class="text-secondary font-black text-2xl">Banana</p>
                                             <p>Professional employees are there for you to pick the most amazing and
                                                 fresh fruits.</p>
                                             <div class="rating rating-lg rating-half">
@@ -564,7 +574,8 @@
                                         </div>
                                         <div class="modal-action flex justify-center gap-4">
                                             <!-- if there is a button in form, it will close the modal -->
-                                            <button class="btn">Close</button>
+                                            <button
+                                                class="btn border-2 bg-transparent border-theme text-theme hover:text-white hover:bg-theme hover:border-theme">Close</button>
                                             <button
                                                 class="btn text-white bg-theme border-2 border-transparent hover:bg-transparent hover:border-theme hover:text-theme">Buy
                                                 Now</button>
@@ -588,14 +599,14 @@
         <section id="team" class="py-16">
             <div class="container mx-auto max-sm:px-6">
                 <div class="hero" style="background-image: url('./assets/images/team.png');">
-                    <div class="hero-overlay bg-[#121212]/70"></div>
+                    <div class="hero-overlay bg-secondary/70"></div>
                     <div class="hero-content text-center text-white ">
                         <div class="p-6 lg:px-52 lg:py-32">
-                            <h2 class="mb-5 text-5xl font-bold">Meet the team section</h2>
-                            <p class="mb-5">Contrary to popular belief, is not simply random text. It has roots in a
+                            <h2 class="text-5xl font-bold">Meet the team section</h2>
+                            <p class="mt-5">Contrary to popular belief, is not simply random text. It has roots in a
                                 piece of classical Latin literature from 45 BC,
                                 making it over 2000 years old.</p>
-                            <div class="grid sm:grid-cols-2 xl:grid-cols-4 gap-6">
+                            <div class="grid sm:grid-cols-2 mt-5 lg:mt-12 xl:grid-cols-4 gap-6">
                                 <div class="flex flex-col gap-8 items-center">
                                     <div class="avatar">
                                         <div class="w-32 rounded-full ">
@@ -606,9 +617,15 @@
                                         <h3 class="font-black text-2xl">Awlad Hossain</h3>
                                         <p class="text-base">Fruits Expert</p>
                                         <div class="flex mt-4 gap-3">
-                                            <img src="./assets/icon/facebook.png" alt="">
-                                            <img src="./assets/icon/twitter.png" alt="">
-                                            <img src="./assets/icon/linkedin.png" alt="">
+                                            <a href="#" target="_blank" rel="noopener noreferrer">
+                                                <img src="./assets/icon/facebook.png" alt="">
+                                            </a>
+                                            <a href="#" target="_blank" rel="noopener noreferrer">
+                                                <img src="./assets/icon/twitter.png" alt="">
+                                            </a>
+                                            <a href="#" target="_blank" rel="noopener noreferrer">
+                                                <img src="./assets/icon/linkedin.png" alt="">
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
@@ -622,9 +639,15 @@
                                         <h3 class="font-black text-2xl">Safia Chowdhury</h3>
                                         <p class="text-base">Fruits Expert</p>
                                         <div class="flex mt-4 gap-3">
-                                            <img src="./assets/icon/facebook.png" alt="">
-                                            <img src="./assets/icon/twitter.png" alt="">
-                                            <img src="./assets/icon/linkedin.png" alt="">
+                                            <a href="#" target="_blank" rel="noopener noreferrer">
+                                                <img src="./assets/icon/facebook.png" alt="">
+                                            </a>
+                                            <a href="#" target="_blank" rel="noopener noreferrer">
+                                                <img src="./assets/icon/twitter.png" alt="">
+                                            </a>
+                                            <a href="#" target="_blank" rel="noopener noreferrer">
+                                                <img src="./assets/icon/linkedin.png" alt="">
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
@@ -638,9 +661,15 @@
                                         <h3 class="font-black text-2xl">Rokib Hossain</h3>
                                         <p class="text-base">Fruits Expert</p>
                                         <div class="flex mt-4 gap-3">
-                                            <img src="./assets/icon/facebook.png" alt="">
-                                            <img src="./assets/icon/twitter.png" alt="">
-                                            <img src="./assets/icon/linkedin.png" alt="">
+                                            <a href="#" target="_blank" rel="noopener noreferrer">
+                                                <img src="./assets/icon/facebook.png" alt="">
+                                            </a>
+                                            <a href="#" target="_blank" rel="noopener noreferrer">
+                                                <img src="./assets/icon/twitter.png" alt="">
+                                            </a>
+                                            <a href="#" target="_blank" rel="noopener noreferrer">
+                                                <img src="./assets/icon/linkedin.png" alt="">
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
@@ -654,9 +683,15 @@
                                         <h3 class="font-black text-2xl">Chaity</h3>
                                         <p class="text-base">Fruits Expert</p>
                                         <div class="flex mt-4 gap-3">
-                                            <img src="./assets/icon/facebook.png" alt="">
-                                            <img src="./assets/icon/twitter.png" alt="">
-                                            <img src="./assets/icon/linkedin.png" alt="">
+                                            <a href="#" target="_blank" rel="noopener noreferrer">
+                                                <img src="./assets/icon/facebook.png" alt="">
+                                            </a>
+                                            <a href="#" target="_blank" rel="noopener noreferrer">
+                                                <img src="./assets/icon/twitter.png" alt="">
+                                            </a>
+                                            <a href="#" target="_blank" rel="noopener noreferrer">
+                                                <img src="./assets/icon/linkedin.png" alt="">
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
@@ -671,8 +706,9 @@
         <section id="why-choose" class="py-16 pb-32">
             <div class="container mx-auto max-sm:px-6">
                 <div class="text-center max-w-xl mx-auto space-y-6">
-                    <h2 class="text-xl lg:text-5xl font-black text-[#121212]">Why Choose Us</h2>
-                    <p class="text-[#121212]/60">Contrary to popular belief, is not simply random text. It has roots in
+                    <h2 class="text-xl lg:text-5xl font-black text-secondary">Why Choose Us</h2>
+                    <p class="text-secondary/60">Contrary to popular belief, is not simply random text. It has roots
+                        in
                         a piece of classical Latin
                         literature from 45 BC,
                         making it over 2000 years old.</p>
@@ -686,11 +722,12 @@
                                 <img src="./assets/icon/team.png" alt="">
                             </div>
                             <div class="flex flex-col max-lg:items-center space-y-4">
-                                <h3 class="text-2xl text-[#121212] font-black">Dedicated Team</h3>
+                                <h3 class="text-2xl text-secondary font-black">Dedicated Team</h3>
                                 <div class="flex flex-col w-24">
                                     <div class="divider m-0 h-[1px]"></div>
                                 </div>
-                                <p class="text-[#121212]/60 max-lg:text-center">Professional employees are there for you
+                                <p class="text-secondary/60 max-lg:text-center">Professional employees are there for
+                                    you
                                     to
                                     pick
                                     the most
@@ -703,11 +740,12 @@
                                 <img src="./assets/icon/love.png" alt="">
                             </div>
                             <div class="flex flex-col max-lg:items-center space-y-4">
-                                <h3 class="text-2xl text-[#121212] font-black">Fresh is Best</h3>
+                                <h3 class="text-2xl text-secondary font-black">Fresh is Best</h3>
                                 <div class="flex flex-col w-24">
                                     <div class="divider m-0 h-[1px]"></div>
                                 </div>
-                                <p class="text-[#121212]/60 max-lg:text-center">Professional employees are there for you
+                                <p class="text-secondary/60 max-lg:text-center">Professional employees are there for
+                                    you
                                     to
                                     pick
                                     the most
@@ -720,11 +758,12 @@
                                 <img src="./assets/icon/gift-box.png" alt="">
                             </div>
                             <div class="flex flex-col max-lg:items-center space-y-4">
-                                <h3 class="text-2xl text-[#121212] font-black">Gift Certificates</h3>
+                                <h3 class="text-2xl text-secondary font-black">Gift Certificates</h3>
                                 <div class="flex flex-col w-24">
                                     <div class="divider m-0 h-[1px]"></div>
                                 </div>
-                                <p class="text-[#121212]/60 max-lg:text-center">Professional employees are there for you
+                                <p class="text-secondary/60 max-lg:text-center">Professional employees are there for
+                                    you
                                     to
                                     pick
                                     the most
@@ -740,11 +779,11 @@
                                 <img src="./assets/icon/fruit.png" alt="">
                             </div>
                             <div class="flex flex-col items-center lg:items-end space-y-4">
-                                <h3 class="text-2xl text-[#121212] font-black">Integrated Supplier</h3>
+                                <h3 class="text-2xl text-secondary font-black">Integrated Supplier</h3>
                                 <div class="flex flex-col w-24">
                                     <div class="divider m-0 h-[1px]"></div>
                                 </div>
-                                <p class="text-[#121212]/60">Professional employees are there for you
+                                <p class="text-secondary/60">Professional employees are there for you
                                     to
                                     pick
                                     the most
@@ -758,11 +797,11 @@
                                 <img src="./assets/icon/ice-cream.png" alt="">
                             </div>
                             <div class="flex flex-col items-center lg:items-end space-y-4">
-                                <h3 class="text-2xl text-[#121212] font-black">Sustainable Practice</h3>
+                                <h3 class="text-2xl text-secondary font-black">Sustainable Practice</h3>
                                 <div class="flex flex-col w-24">
                                     <div class="divider m-0 h-[1px]"></div>
                                 </div>
-                                <p class="text-[#121212]/60">Professional employees are there for you
+                                <p class="text-secondary/60">Professional employees are there for you
                                     to
                                     pick
                                     the most
@@ -776,11 +815,11 @@
                                 <img src="./assets/icon/like.png" alt="">
                             </div>
                             <div class="flex flex-col items-center lg:items-end space-y-4">
-                                <h3 class="text-2xl text-[#121212] font-black">The Benefits Only</h3>
+                                <h3 class="text-2xl text-secondary font-black">The Benefits Only</h3>
                                 <div class="flex flex-col w-24">
                                     <div class="divider m-0 h-[1px]"></div>
                                 </div>
-                                <p class="text-[#121212]/60">Professional employees are there for you
+                                <p class="text-secondary/60">Professional employees are there for you
                                     to
                                     pick
                                     the most
@@ -795,7 +834,7 @@
     </main>
     <!-- Main Section End -->
     <!-- footer Section Start -->
-    <footer class="footer footer-center py-36 bg-[#121212] text-white">
+    <footer class="footer footer-center py-12 lg:py-36 bg-secondary text-white">
         <div class="container mx-auto max-sm:px-6 space-y-6 lg:space-y-14">
             <div class="flex">
                 <a href="#" class="flex gap-2 items-center">
@@ -803,7 +842,7 @@
                     <h1 class="text-xl font-bold">Fruit Burst</h1>
                 </a>
             </div>
-            <div class="flex flex-wrap justify-center gap-12">
+            <div class="flex flex-wrap justify-center lg:gap-12 gap-8">
                 <a href="#" class="text-xl">Home</a>
                 <a href="#" class="text-xl">About Us</a>
                 <a href="#" class="text-xl">Shop</a>
@@ -814,7 +853,8 @@
             <div>
                 <div class="flex flex-wrap justify-center gap-8">
                     <a href="#">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+                        <svg class="max-lg:w-8" xmlns="http://www.w3.org/2000/svg" width="40" height="40"
+                            viewBox="0 0 40 40" fill="none">
                             <g clip-path="url(#clip0_13_2937)">
                                 <path
                                     d="M40 7.5975C38.5125 8.25 36.9275 8.6825 35.275 8.8925C36.975 7.8775 38.2725 6.2825 38.8825 4.36C37.2975 5.305 35.5475 5.9725 33.6825 6.345C32.1775 4.7425 30.0325 3.75 27.6925 3.75C23.1525 3.75 19.4975 7.435 19.4975 11.9525C19.4975 12.6025 19.5525 13.2275 19.6875 13.8225C12.87 13.49 6.8375 10.2225 2.785 5.245C2.0775 6.4725 1.6625 7.8775 1.6625 9.39C1.6625 12.23 3.125 14.7475 5.305 16.205C3.9875 16.18 2.695 15.7975 1.6 15.195C1.6 15.22 1.6 15.2525 1.6 15.285C1.6 19.27 4.4425 22.58 8.17 23.3425C7.5025 23.525 6.775 23.6125 6.02 23.6125C5.495 23.6125 4.965 23.5825 4.4675 23.4725C5.53 26.72 8.545 29.1075 12.13 29.185C9.34 31.3675 5.7975 32.6825 1.9625 32.6825C1.29 32.6825 0.645 32.6525 0 32.57C3.6325 34.9125 7.9375 36.25 12.58 36.25C27.67 36.25 35.92 23.75 35.92 12.915C35.92 12.5525 35.9075 12.2025 35.89 11.855C37.5175 10.7 38.885 9.2575 40 7.5975Z"
@@ -828,7 +868,8 @@
                         </svg>
                     </a>
                     <a href="#">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+                        <svg class="max-lg:w-8" xmlns="http://www.w3.org/2000/svg" width="40" height="40"
+                            viewBox="0 0 40 40" fill="none">
                             <g clip-path="url(#clip0_13_2940)">
                                 <path
                                     d="M40 20C40 29.9828 32.6859 38.257 23.125 39.757V25.7813H27.7852L28.6719 20H23.125V16.2484C23.125 14.6664 23.9 13.125 26.3844 13.125H28.9062V8.20313C28.9062 8.20313 26.6172 7.8125 24.4289 7.8125C19.8609 7.8125 16.875 10.5813 16.875 15.5938V20H11.7969V25.7813H16.875V39.757C7.31406 38.257 0 29.9828 0 20C0 8.95469 8.95469 0 20 0C31.0453 0 40 8.95469 40 20Z"
@@ -845,7 +886,8 @@
                         </svg>
                     </a>
                     <a href="#">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="58" height="40" viewBox="0 0 58 40" fill="none">
+                        <svg class="max-lg:w-8" xmlns="http://www.w3.org/2000/svg" width="58" height="40"
+                            viewBox="0 0 58 40" fill="none">
                             <path
                                 d="M55.9526 6.25899C55.294 3.81162 53.3644 1.88249 50.9175 1.22347C46.4468 0 28.5643 0 28.5643 0C28.5643 0 10.6821 0 6.21148 1.17683C3.81162 1.83542 1.83498 3.81206 1.17639 6.25899C0 10.7292 0 20 0 20C0 20 0 29.3174 1.17639 33.741C1.83542 36.1879 3.76455 38.1175 6.21192 38.7765C10.7292 40 28.5647 40 28.5647 40C28.5647 40 46.4468 40 50.9175 38.8232C53.3649 38.1646 55.294 36.235 55.953 33.7881C57.1294 29.3174 57.1294 20.0471 57.1294 20.0471C57.1294 20.0471 57.1765 10.7292 55.9526 6.25899Z"
                                 fill="white" />
@@ -853,7 +895,8 @@
                         </svg>
                     </a>
                     <a href="#">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="41" height="40" viewBox="0 0 41 40" fill="none">
+                        <svg class="max-lg:w-8" xmlns="http://www.w3.org/2000/svg" width="41" height="40"
+                            viewBox="0 0 41 40" fill="none">
                             <path
                                 d="M36.1214 36V35.9988H36.1294V24.2628C36.1294 18.5216 34.8934 14.0988 28.1814 14.0988C24.9546 14.0988 22.7894 15.8696 21.9054 17.548H21.8122V14.6348H15.4482V35.9988H22.075V25.42C22.075 22.6348 22.603 19.9412 26.0522 19.9412C29.451 19.9412 29.5014 23.12 29.5014 25.5984V36H36.1214Z"
                                 fill="white" />
@@ -864,7 +907,8 @@
                         </svg>
                     </a>
                     <a href="#">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="41" height="40" viewBox="0 0 41 40" fill="none">
+                        <svg class="max-lg:w-8" xmlns="http://www.w3.org/2000/svg" width="41" height="40"
+                            viewBox="0 0 41 40" fill="none">
                             <g clip-path="url(#clip0_13_2954)">
                                 <path
                                     d="M40.0903 11.7601C39.9966 9.63476 39.6529 8.17359 39.1606 6.90748C38.6527 5.56353 37.8713 4.36029 36.8475 3.36003C35.8472 2.34421 34.6361 1.55487 33.3077 1.05489C32.0342 0.562549 30.5807 0.218854 28.4553 0.125146C26.3141 0.0235031 25.6344 0 20.2036 0C14.7729 0 14.0931 0.0235031 11.9598 0.11721C9.83446 0.210918 8.3733 0.554918 7.10749 1.04696C5.76323 1.55487 4.55999 2.33627 3.55974 3.36003C2.54392 4.36029 1.75488 5.57146 1.2546 6.89985C0.762256 8.17359 0.418561 9.62682 0.324854 11.7522C0.22321 13.8934 0.199707 14.5732 0.199707 20.0039C0.199707 25.4347 0.22321 26.1144 0.316917 28.2477C0.410625 30.3731 0.754625 31.8342 1.24697 33.1003C1.75488 34.4443 2.54392 35.6475 3.55974 36.6478C4.55999 37.6636 5.77117 38.4529 7.09955 38.9529C8.3733 39.4453 9.82653 39.789 11.9522 39.8827C14.0852 39.9767 14.7652 39.9999 20.196 39.9999C25.6267 39.9999 26.3065 39.9767 28.4398 39.8827C30.5651 39.789 32.0263 39.4453 33.2921 38.9529C35.9803 37.9136 38.1057 35.7882 39.145 33.1003C39.637 31.8266 39.981 30.3731 40.0747 28.2477C40.1685 26.1144 40.192 25.4347 40.192 20.0039C40.192 14.5732 40.184 13.8934 40.0903 11.7601ZM36.4882 28.0914C36.4022 30.0449 36.074 31.0998 35.8005 31.8031C35.1284 33.5457 33.7454 34.9287 32.0028 35.6008C31.2995 35.8743 30.237 36.2024 28.2911 36.2882C26.1813 36.3822 25.5486 36.4054 20.2116 36.4054C14.8745 36.4054 14.2338 36.3822 12.1317 36.2882C10.1782 36.2024 9.12326 35.8743 8.42 35.6008C7.55283 35.2803 6.76349 34.7724 6.1228 34.1082C5.45861 33.4596 4.9507 32.6782 4.6302 31.811C4.35671 31.1078 4.02858 30.0449 3.94281 28.0994C3.8488 25.9896 3.8256 25.3565 3.8256 20.0195C3.8256 14.6824 3.8488 14.0417 3.94281 11.9399C4.02858 9.98639 4.35671 8.93149 4.6302 8.22823C4.9507 7.36075 5.45861 6.57172 6.13074 5.93072C6.77906 5.26653 7.56046 4.75862 8.42794 4.43843C9.1312 4.16494 10.194 3.83681 12.1396 3.75073C14.2494 3.65703 14.8824 3.63352 20.2192 3.63352C25.5642 3.63352 26.1969 3.65703 28.2991 3.75073C30.2526 3.83681 31.3075 4.16494 32.0107 4.43843C32.8779 4.75862 33.6672 5.26653 34.3079 5.93072C34.9721 6.57935 35.48 7.36075 35.8005 8.22823C36.074 8.93149 36.4022 9.99402 36.4882 11.9399C36.5819 14.0497 36.6054 14.6824 36.6054 20.0195C36.6054 25.3565 36.5819 25.9816 36.4882 28.0914Z"
@@ -884,7 +928,8 @@
                         </svg>
                     </a>
                     <a href="#">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="41" height="40" viewBox="0 0 41 40" fill="none">
+                        <svg class="max-lg:w-8" xmlns="http://www.w3.org/2000/svg" width="41" height="40"
+                            viewBox="0 0 41 40" fill="none">
                             <g clip-path="url(#clip0_13_2959)">
                                 <path
                                     d="M27.6276 0C25.4951 0.147499 23.0026 1.51249 21.5501 3.28998C20.2251 4.90247 19.1351 7.29746 19.5601 9.62494C21.8901 9.69744 24.2976 8.29995 25.6926 6.49246C26.9976 4.80997 27.9851 2.42999 27.6276 0Z"
